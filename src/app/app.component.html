@@ -1,4 +1,6 @@
+<app-mobile-block *ngIf="isMobile"></app-mobile-block>
+<div class="page-container">
 <app-navbar></app-navbar>
-<router-outlet></router-outlet>
-
-
+  <router-outlet *ngIf="!isMobile"></router-outlet>
+<app-footer></app-footer>
+</div>

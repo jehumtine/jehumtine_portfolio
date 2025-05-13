@@ -1,9 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
 @import "tailwindcss";
+@font-face {
+  font-family: 'Futura', sans-serif !important;
+  src:url("/assets/fonts/futura medium condensed bt.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font-family: 'Futura', sans-serif !important;
   color: #1a1a1a;
   margin: 0;
   padding: 0;
+}
+body, html {
+  font-family: 'Futura', sans-serif !important;
 }
